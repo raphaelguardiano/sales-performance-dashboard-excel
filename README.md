@@ -1,4 +1,4 @@
-# 📊 Dashboard Executivo de Performance de Vendas — Excel
+# 📊 Dashbod Executivo de Performance de Vendas — Excel
 
 ## 📌 Visão Geral do Projeto
 
