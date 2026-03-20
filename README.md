@@ -1,278 +1,166 @@
-# 📊 Dashboard Executivo de Performance de Vendas — Excel
+# 📊 Sales Performance Dashboard — Excel
 
-## 📌 Visão Geral do Projeto
+Este é meu primeiro projeto de portfólio em análise de dados.
 
-Este projeto apresenta o desenvolvimento de um **Dashboard Executivo de Performance de Vendas em Excel**, criado para transformar dados brutos de vendas em **informações estratégicas para tomada de decisão**.
-
-O objetivo do projeto é demonstrar como um analista de dados pode estruturar um fluxo completo de análise, desde a preparação dos dados até a criação de um **painel executivo de acompanhamento de KPIs**.
-
-Este projeto foi desenvolvido como um **case study de análise de dados**, simulando um cenário real de consultoria analítica.
+O objetivo foi transformar dados brutos de vendas em um dashboard executivo, capaz de apoiar a análise de desempenho e tomada de decisão.
 
 ---
 
-# 🏢 Contexto de Negócio
+# 📌 Contexto de Negócio
 
-Uma empresa de varejo / e-commerce possui dados detalhados de vendas, porém não possui uma visão consolidada da performance do negócio.
+Empresas que operam com grande volume de vendas precisam acompanhar constantemente seus indicadores para entender:
 
-Gestores enfrentam dificuldades para responder perguntas estratégicas como:
+- como está o desempenho geral
+- quais regiões vendem mais
+- quais produtos geram mais receita e lucro
 
-* O negócio está crescendo ao longo do tempo?
-* Quais regiões apresentam melhor desempenho?
-* Quais categorias geram mais receita?
-* Quais produtos geram mais lucro?
-* Existem produtos com baixa rentabilidade?
-
-Sem um dashboard estruturado, a análise dessas informações torna-se lenta e pouco eficiente.
+Sem essa visibilidade, a tomada de decisão se torna limitada e reativa.
 
 ---
 
-# 🎯 Problema
+# 🚨 Problema
 
-Apesar de possuir dados operacionais detalhados, a empresa não possui um **painel de acompanhamento de performance** que permita monitorar os principais indicadores do negócio.
+Apesar de possuir dados detalhados de vendas, a empresa não possui um painel consolidado que permita acompanhar os principais indicadores de performance.
 
-Isso dificulta:
-
-* análise rápida do desempenho das vendas
-* identificação de oportunidades de crescimento
-* detecção de problemas de rentabilidade
+Sem essa visão estruturada, torna-se mais difícil identificar tendências, comparar regiões e encontrar oportunidades de melhoria.
 
 ---
 
-# ❓ Pergunta Estratégica
+# 🎯 Pergunta de Análise
 
-**Como está a performance de vendas da empresa e quais áreas apresentam maior oportunidade de crescimento e rentabilidade?**
-
----
-
-# 📂 Dataset Utilizado
-
-**Dataset:** Superstore Sales Dataset
-**Fonte:** Kaggle
-
-https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
-
-Arquivo utilizado:
-
-Sample - Superstore.csv
-
-Principais campos utilizados na análise:
-
-* Order Date
-* Sales
-* Profit
-* Quantity
-* Category
-* Sub-Category
-* Region
-* Segment
-* Product Name
-* Customer Name
+Como está a performance de vendas da empresa e quais fatores mais influenciam os resultados?
 
 ---
 
-# 🧠 Metodologia Analítica
+# 🗂️ Dataset Utilizado
 
-O projeto segue um fluxo estruturado de análise de dados:
+Fonte: Kaggle  
+Arquivo utilizado: Sample - Superstore.csv
 
-Problema de negócio
-→ Perguntas estratégicas
-→ Hipóteses de análise
-→ Análise exploratória
-→ Construção do dashboard
-→ Identificação de insights
+Principais campos utilizados:
 
-Essa abordagem reflete a metodologia utilizada em projetos reais de **análise de dados e BI**.
-
----
-
-# 📊 KPIs Monitorados
-
-O dashboard monitora os seguintes indicadores principais:
-
-| KPI                | Descrição                           |
-| ------------------ | ----------------------------------- |
-| Receita Total      | Soma das vendas                     |
-| Lucro Total        | Soma do lucro                       |
-| Quantidade Vendida | Total de unidades vendidas          |
-| Número de Pedidos  | Total de pedidos                    |
-| Ticket Médio       | Receita média por pedido            |
-| Margem de Lucro    | Percentual de lucro sobre a receita |
+- Order Date (data do pedido)
+- Region (região)
+- Category (categoria)
+- Sub-Category (subcategoria)
+- Product Name (produto)
+- Sales (receita)
+- Profit (lucro)
+- Quantity (quantidade)
 
 ---
 
-# 🏗 Arquitetura Analítica do Projeto
+# ⚙️ Metodologia Utilizada
 
-O projeto foi estruturado seguindo uma arquitetura semelhante a projetos de Business Intelligence.
+O projeto foi estruturado seguindo um fluxo de análise:
 
-Fluxo analítico:
-
-Dados Brutos
-↓
-Base Tratada
-↓
-Modelo de Dados
-↓
-Análises
-↓
-Dashboard
-
-Estrutura das abas no Excel:
-
-01_Dados_Brutos
-02_Base_Tratada
-03_Modelo_Dados
-04_Analises
-05_Dashboard
-
-Essa estrutura separa claramente as etapas de **dados, transformação, análise e visualização**.
+1. Importação e organização dos dados  
+2. Limpeza e tratamento da base  
+3. Criação de métricas (KPIs)  
+4. Construção de tabelas dinâmicas  
+5. Desenvolvimento do dashboard  
 
 ---
 
-# 📈 Dashboard
+# 📈 KPIs Monitorados
 
-## Visão Geral do Dashboard
-
-![Visão geral do dashboard](images/dashboard_overview.png)
-
-O dashboard apresenta uma visão executiva da performance de vendas, permitindo analisar rapidamente os principais indicadores do negócio.
-
----
-
-## KPIs Executivos
-
-![KPIs do dashboard](images/kpis.png)
-
-Os KPIs fornecem uma visão rápida do desempenho geral da empresa.
-
-Eles permitem acompanhar:
-
-* receita total
-* lucro total
-* volume de vendas
-* número de pedidos
-* ticket médio
-* margem de lucro
+| KPI                  | Descrição                         |
+|----------------------|----------------------------------|
+| Receita Total        | Soma total das vendas            |
+| Lucro Total          | Soma total do lucro              |
+| Número de Pedidos    | Total de pedidos realizados      |
+| Quantidade Vendida   | Total de itens vendidos          |
+| Ticket Médio         | Receita média por pedido         |
+| Margem de Lucro      | Percentual de lucro sobre vendas |
 
 ---
 
-## Evolução das Vendas ao Longo do Tempo
+# 📊 Dashboard
 
-![Vendas ao longo do tempo](images/sales_trend.png)
+## Visão Geral
 
-Esse gráfico permite identificar tendências de crescimento, queda ou sazonalidade nas vendas.
-
----
-
-## Vendas por Região
-
-![Vendas por região](images/sales_region.png)
-
-A análise regional permite identificar quais regiões apresentam maior participação na receita da empresa.
+![Dashboard](images/dashboard.png)
 
 ---
 
-## Vendas por Categoria
+## KPIs
 
-![Vendas por categoria](images/sales_category.png)
-
-Essa análise permite entender quais categorias de produtos geram maior faturamento.
+![KPIs](images/kpis.png)
 
 ---
 
-## Top Produtos
+## Vendas ao longo do tempo
 
-![Top produtos](images/top_products.png)
-
-O ranking de produtos permite identificar quais itens são responsáveis pela maior parte da receita.
+![Vendas ao longo do tempo](images/vendas_tempo.png)
 
 ---
 
-# 🔎 Principais Insights Identificados
+## Vendas por região
 
-A análise revelou alguns padrões importantes no desempenho do negócio:
-
-### Concentração de vendas
-
-Grande parte da receita está concentrada em **um número reduzido de subcategorias e produtos**.
-
-### Diferenças regionais
-
-Algumas regiões apresentam desempenho significativamente superior em vendas.
-
-### Categorias dominantes
-
-Determinadas categorias representam a maior parcela do faturamento.
-
-### Produtos líderes
-
-Alguns produtos concentram grande parte da receita total, atuando como principais impulsionadores das vendas.
+![Vendas por região](images/vendas_regiao.png)
 
 ---
 
-# 💡 Recomendações de Negócio
+## Vendas por categoria
 
-Com base na análise realizada, algumas ações estratégicas podem ser consideradas:
-
-**Foco nos produtos líderes**
-
-Investir em marketing e disponibilidade dos produtos com maior volume de vendas.
-
-**Revisão de produtos com baixa rentabilidade**
-
-Produtos com alto volume de vendas, mas baixa margem, podem exigir revisão de preços ou custos.
-
-**Exploração de regiões com alto potencial**
-
-Regiões com melhor desempenho podem receber investimentos adicionais.
-
-**Diversificação do portfólio**
-
-Reduzir dependência excessiva de poucas subcategorias pode diminuir riscos.
+![Vendas por categoria](images/vendas_categoria.png)
 
 ---
 
-# 🛠 Tecnologias Utilizadas
+## Top produtos
 
-Ferramentas aplicadas neste projeto:
-
-* Microsoft Excel
-* Tabelas Dinâmicas
-* Gráficos
-* Segmentações de Dados
-* Limpeza e Transformação de Dados
+![Top produtos](images/top_produtos.png)
 
 ---
 
-# 📁 Estrutura do Repositório
+# 🔍 Principais Observações
 
-sales-performance-dashboard-excel
+A análise dos dados revelou alguns padrões importantes:
 
-data
-└ superstore_sales_dataset.csv
-
-excel
-└ sales_dashboard_superstore.xlsx
-
-images
-└ dashboard images
-
-README.md
+- forte concentração de vendas em poucas subcategorias  
+- alguns produtos lideram grande parte da receita  
+- existem diferenças relevantes entre regiões  
+- determinadas categorias concentram maior faturamento  
 
 ---
 
-# 🚀 Possíveis Extensões do Projeto
+# 💡 Possíveis Ações de Negócio
 
-Este projeto pode evoluir para análises mais avançadas, como:
+Com base na análise realizada, algumas ações que poderiam ser consideradas incluem:
 
-* versão do dashboard em Power BI
-* automação de atualização de dados com Python
-* análise de rentabilidade detalhada
-* previsão de vendas
+- reforçar disponibilidade dos produtos mais vendidos  
+- analisar produtos com baixa margem  
+- explorar regiões com maior potencial de vendas  
+- avaliar o desempenho por categoria para ajustes estratégicos  
 
 ---
 
-# 👨‍💻 Autor
+# 🧠 Aprendizados
 
-Raphael Guardiano
+Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
 
-Projeto desenvolvido como parte do portfólio em **Análise de Dados**, com foco em dashboards executivos e análise de performance de negócios.
+- estruturação de um problema de negócio  
+- organização e tratamento de dados  
+- criação de KPIs  
+- uso de tabelas dinâmicas  
+- construção de dashboards em Excel  
+
+---
+
+# 📌 Conclusão
+
+Este projeto permitiu transformar dados brutos em informações organizadas e visuais, facilitando a análise de desempenho de vendas.
+
+Além disso, reforçou a importância de estruturar bem os dados antes de realizar qualquer análise.
+
+---
+
+# 📎 Sobre o Projeto
+
+Este projeto faz parte da minha transição de carreira para a área de análise de dados.
+
+Estou desenvolvendo projetos práticos com foco em:
+
+- análise de dados  
+- construção de dashboards  
+- geração de insights de negócio  
