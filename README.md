@@ -79,7 +79,7 @@ O projeto foi estruturado seguindo um fluxo de análise:
 
 ## Visão Geral
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/dashboard_overview.png)
 
 ---
 
@@ -91,25 +91,25 @@ O projeto foi estruturado seguindo um fluxo de análise:
 
 ## Vendas ao longo do tempo
 
-![Vendas ao longo do tempo](images/vendas_tempo.png)
+![Vendas ao longo do tempo](images/sales_trend.png)
 
 ---
 
 ## Vendas por região
 
-![Vendas por região](images/vendas_regiao.png)
+![Vendas por região](images/sales_region.png)
 
 ---
 
 ## Vendas por categoria
 
-![Vendas por categoria](images/vendas_categoria.png)
+![Vendas por categoria](images/sales_category.png)
 
 ---
 
 ## Top produtos
 
-![Top produtos](images/top_produtos.png)
+![Top produtos](images/top_products.png)
 
 ---
 
