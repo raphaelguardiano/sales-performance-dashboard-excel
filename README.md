@@ -2,7 +2,7 @@
 
 Este é meu primeiro projeto de portfólio em análise de dados.
 
-O objetivo foi transformar dados brutos de vendas em um dashboard executivo, capaz de apoiar a análise de desempenho e tomada de decisão.
+O objetivo foi transformar dados brutos de vendas em um dashboard executivo e, a partir dele, gerar análises que apoiem a tomada de decisão.
 
 ---
 
@@ -11,54 +11,58 @@ O objetivo foi transformar dados brutos de vendas em um dashboard executivo, cap
 Empresas que operam com grande volume de vendas precisam acompanhar constantemente seus indicadores para entender:
 
 - como está o desempenho geral
-- quais regiões vendem mais
-- quais produtos geram mais receita e lucro
+- quais categorias geram mais valor
+- onde existem distorções entre faturamento e lucro
 
-Sem essa visibilidade, a tomada de decisão se torna limitada e reativa.
+Sem essa visibilidade, a tomada de decisão tende a ser reativa e pouco eficiente.
 
 ---
 
 # 🚨 Problema
 
-Apesar de possuir dados detalhados de vendas, a empresa não possui um painel consolidado que permita acompanhar os principais indicadores de performance.
+Apesar de possuir dados detalhados de vendas, a empresa não possui um painel consolidado que permita:
 
-Sem essa visão estruturada, torna-se mais difícil identificar tendências, comparar regiões e encontrar oportunidades de melhoria.
+- acompanhar os principais indicadores
+- entender a eficiência das categorias
+- identificar quais áreas realmente sustentam o resultado
 
 ---
 
 # 🎯 Pergunta de Análise
 
-Como está a performance de vendas da empresa e quais fatores mais influenciam os resultados?
+Como está a performance de vendas da empresa e quais fatores realmente influenciam o resultado financeiro?
 
 ---
 
 # 🗂️ Dataset Utilizado
 
 Fonte: Kaggle  
-Arquivo utilizado: Sample - Superstore.csv
+Arquivo: Sample - Superstore.csv
 
-Principais campos utilizados:
+Principais campos:
 
-- Order Date (data do pedido)
-- Region (região)
-- Category (categoria)
-- Sub-Category (subcategoria)
-- Product Name (produto)
+- Order Date
+- Region
+- Category
+- Sub-Category
+- Product Name
 - Sales (receita)
 - Profit (lucro)
-- Quantity (quantidade)
+- Quantity
+- Discount
 
 ---
 
-# ⚙️ Metodologia Utilizada
+# ⚙️ Metodologia
 
-O projeto foi estruturado seguindo um fluxo de análise:
+O projeto foi estruturado em etapas:
 
 1. Importação e organização dos dados  
-2. Limpeza e tratamento da base  
+2. Limpeza e padronização da base  
 3. Criação de métricas (KPIs)  
 4. Construção de tabelas dinâmicas  
 5. Desenvolvimento do dashboard  
+6. Análise exploratória e diagnóstica  
 
 ---
 
@@ -78,60 +82,63 @@ O projeto foi estruturado seguindo um fluxo de análise:
 # 📊 Dashboard
 
 ## Visão Geral
-
 ![Dashboard](images/dashboard_overview.png)
 
----
-
 ## KPIs
-
 ![KPIs](images/kpis.png)
 
----
-
 ## Vendas ao longo do tempo
-
 ![Vendas ao longo do tempo](images/sales_trend.png)
 
----
-
 ## Vendas por região
-
 ![Vendas por região](images/sales_region.png)
 
----
-
 ## Vendas por categoria
-
 ![Vendas por categoria](images/sales_category.png)
 
----
-
 ## Top produtos
-
 ![Top produtos](images/top_products.png)
 
 ---
 
-# 🔍 Principais Observações
+# 🔍 Análises Realizadas
 
-A análise dos dados revelou alguns padrões importantes:
+Além da construção do dashboard, foram realizadas análises adicionais para entender melhor o desempenho do negócio:
 
-- forte concentração de vendas em poucas subcategorias  
-- alguns produtos lideram grande parte da receita  
-- existem diferenças relevantes entre regiões  
-- determinadas categorias concentram maior faturamento  
+- Análise de margem por categoria (eficiência)
+- Comparação entre receita e lucro
+- Participação percentual por categoria
+- Análise de concentração (Pareto) por subcategoria
+
+---
+
+# 🔍 Principais Insights
+
+A análise revelou padrões relevantes para o negócio:
+
+- A categoria **Technology** apresenta alta eficiência, concentrando **36% da receita e 51% do lucro**, sendo a principal responsável pelo resultado financeiro.
+
+- A categoria **Office Supplies** apresenta desempenho consistente, com equilíbrio entre receita e lucratividade.
+
+- A categoria **Furniture**, apesar de representar cerca de **32% da receita**, contribui com apenas **6% do lucro**, indicando **baixa eficiência econômica**.
+
+- Existe um **desbalanceamento entre volume e rentabilidade**, onde parte relevante do faturamento não se converte em lucro.
+
+- A análise de Pareto mostrou que aproximadamente **50% das subcategorias geram mais de 80% da receita**, indicando uma concentração moderada.
 
 ---
 
 # 💡 Possíveis Ações de Negócio
 
-Com base na análise realizada, algumas ações que poderiam ser consideradas incluem:
+Com base nos insights obtidos, algumas ações estratégicas poderiam ser consideradas:
 
-- reforçar disponibilidade dos produtos mais vendidos  
-- analisar produtos com baixa margem  
-- explorar regiões com maior potencial de vendas  
-- avaliar o desempenho por categoria para ajustes estratégicos  
+- Revisar a estratégia da categoria **Furniture**, avaliando preços, descontos e custos.
+
+- Priorizar investimentos em categorias mais eficientes, como **Technology**.
+
+- Monitorar subcategorias com alto volume de vendas, mas baixa contribuição para o lucro.
+
+- Buscar equilíbrio entre crescimento de receita e geração de valor.
 
 ---
 
@@ -139,19 +146,19 @@ Com base na análise realizada, algumas ações que poderiam ser consideradas in
 
 Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
 
-- estruturação de um problema de negócio  
-- organização e tratamento de dados  
-- criação de KPIs  
-- uso de tabelas dinâmicas  
-- construção de dashboards em Excel  
+- estruturação de problemas de negócio  
+- análise de eficiência (margem)  
+- comparação entre métricas  
+- análise de concentração (Pareto)  
+- uso de Excel para análise de dados  
 
 ---
 
 # 📌 Conclusão
 
-Este projeto permitiu transformar dados brutos em informações organizadas e visuais, facilitando a análise de desempenho de vendas.
+Este projeto permitiu evoluir de uma análise descritiva para uma análise mais diagnóstica.
 
-Além disso, reforçou a importância de estruturar bem os dados antes de realizar qualquer análise.
+Os resultados mostram que **nem toda receita gera valor**, e que entender a relação entre volume e rentabilidade é essencial para decisões mais estratégicas.
 
 ---
 
