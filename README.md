@@ -128,6 +128,38 @@ A análise revelou padrões relevantes para o negócio:
 
 ---
 
+## 📌 Recomendações de Negócio
+
+### 1. Revisar estratégia da categoria Furniture
+
+A categoria Furniture apresenta alta participação na receita, mas baixa contribuição no lucro. Isso indica que vender mais nessa categoria não necessariamente melhora o resultado do negócio.
+
+**Ação recomendada:** reavaliar preços, descontos e estratégia comercial da categoria.  
+**Justificativa baseada nos dados:** alta receita com baixa lucratividade.  
+**Impacto esperado no negócio:** aumento da margem geral sem depender de aumento no volume de vendas.
+
+---
+
+### 2. Priorizar expansão da categoria Technology
+
+A categoria Technology se destacou tanto em receita quanto em lucro, demonstrando maior eficiência financeira em comparação com as demais.
+
+**Ação recomendada:** priorizar ações comerciais e estratégicas voltadas para essa categoria.  
+**Justificativa baseada nos dados:** alta participação em receita e forte contribuição para o lucro.  
+**Impacto esperado no negócio:** crescimento mais sustentável, com melhor retorno financeiro.
+
+---
+
+### 3. Reavaliar o mix de produtos dentro de Furniture
+
+O baixo retorno da categoria sugere que parte dos produtos pode estar comprometendo a rentabilidade.
+
+**Ação recomendada:** revisar o mix de produtos e identificar itens com baixa eficiência financeira.  
+**Justificativa baseada nos dados:** a categoria gera receita, mas não converte isso em lucro na mesma proporção.  
+**Impacto esperado no negócio:** melhoria da eficiência da categoria e redução de distorções de rentabilidade.
+
+---
+
 # 💡 Possíveis Ações de Negócio
 
 Com base nos insights obtidos, algumas ações estratégicas poderiam ser consideradas:
