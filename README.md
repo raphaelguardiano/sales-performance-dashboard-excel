@@ -124,11 +124,25 @@ Além da construção do dashboard, foram realizadas análises adicionais para e
 
 ---
 
-## 💡 Principal Insight
+# 🔍 Principais Insights
 
-A análise revelou uma distorção relevante: a categoria Furniture possui alta participação na receita, mas baixa contribuição no lucro.
+A análise revelou padrões relevantes para o negócio:
 
-Isso indica que aumentar vendas nessa categoria não necessariamente melhora o resultado do negócio, evidenciando um problema de margem.
+- A categoria **Technology** apresenta alta eficiência, concentrando **36% da receita e 51% do lucro**, sendo a principal responsável pelo resultado financeiro.
+
+- A categoria **Office Supplies** apresenta desempenho consistente, com equilíbrio entre receita e lucratividade.
+
+- A categoria **Furniture**, apesar de representar cerca de **32% da receita**, contribui com apenas **6% do lucro**, indicando **baixa eficiência econômica**.
+
+- Existe um **desbalanceamento entre volume e rentabilidade**, onde parte relevante do faturamento não se converte em lucro.
+
+- A análise de Pareto mostrou que aproximadamente **50% das subcategorias geram mais de 80% da receita**, indicando uma concentração moderada.
+ 
+## 💡 Insight-chave de Negócio
+
+Apesar da categoria Furniture representar uma parcela relevante da receita, sua contribuição para o lucro é significativamente baixa.
+
+Isso indica que o crescimento dessa categoria não necessariamente gera valor para o negócio, evidenciando um problema de margem que pode impactar diretamente a rentabilidade geral.
 
 ---
 
@@ -193,6 +207,8 @@ Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
 ## 📌 Conclusão
 
 Este projeto demonstra como dados podem ser utilizados não apenas para visualizar resultados, mas para orientar decisões estratégicas de negócio, identificando onde o crescimento realmente gera valor.
+
+A análise evidenciou que categorias com alto volume de vendas nem sempre contribuem proporcionalmente para o lucro, reforçando a importância de avaliar eficiência e não apenas faturamento.
 
 ---
 
