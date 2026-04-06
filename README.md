@@ -212,6 +212,28 @@ A análise evidenciou que categorias com alto volume de vendas nem sempre contri
 
 ---
 
+## 💼 Aplicação como Serviço
+
+Este projeto pode ser aplicado como um serviço de análise de vendas e lucratividade para empresas que utilizam Excel no dia a dia.
+
+### Para quem é
+- Pequenas e médias empresas  
+- E-commerces  
+- Negócios que utilizam planilhas para controle de vendas  
+
+### Problema que resolve
+- Falta de clareza sobre quais produtos ou categorias realmente geram lucro  
+- Decisões baseadas apenas em volume de vendas  
+- Dificuldade em identificar distorções de rentabilidade  
+
+### Tipo de entrega
+- Dashboard de vendas em Excel  
+- Análise de lucratividade por categoria e produto  
+- Identificação de oportunidades de melhoria  
+- Recomendações práticas para tomada de decisão  
+
+---
+
 # 📎 Sobre o Projeto
 
 Este projeto faz parte da minha transição de carreira para a área de análise de dados.
