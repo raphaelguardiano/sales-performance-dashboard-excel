@@ -34,6 +34,18 @@ Como está a performance de vendas da empresa e quais fatores realmente influenc
 
 ---
 
+## 🧪 Hipóteses de Análise
+
+Antes da análise, foram consideradas as seguintes hipóteses com base no problema de negócio:
+
+- Algumas categorias apresentam alto volume de vendas, mas baixa eficiência financeira.  
+- A lucratividade do negócio não está distribuída proporcionalmente à receita.  
+- Existem categorias com maior capacidade de geração de lucro que podem ser priorizadas.  
+
+Essas hipóteses orientaram a análise e ajudaram a direcionar a investigação dos dados para identificar distorções entre receita e lucratividade.
+
+---
+
 # 🗂️ Dataset Utilizado
 
 Fonte: Kaggle  
