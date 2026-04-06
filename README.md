@@ -18,13 +18,13 @@ Sem essa visibilidade, a tomada de decisão tende a ser reativa e pouco eficient
 
 ---
 
-# 🚨 Problema
+## 🎯 Problema de Negócio
 
-Apesar de possuir dados detalhados de vendas, a empresa não possui um painel consolidado que permita:
+Empresas que utilizam dados de vendas no Excel frequentemente possuem visibilidade sobre volume de vendas, mas não sobre a real lucratividade do negócio.
 
-- acompanhar os principais indicadores
-- entender a eficiência das categorias
-- identificar quais áreas realmente sustentam o resultado
+Isso dificulta identificar quais categorias e produtos realmente geram resultado financeiro positivo, podendo levar a decisões baseadas apenas em receita e não em eficiência.
+
+Este projeto foi desenvolvido para resolver essa lacuna, analisando a relação entre receita e lucro para identificar distorções de rentabilidade.
 
 ---
 
@@ -124,19 +124,11 @@ Além da construção do dashboard, foram realizadas análises adicionais para e
 
 ---
 
-# 🔍 Principais Insights
+## 💡 Principal Insight
 
-A análise revelou padrões relevantes para o negócio:
+A análise revelou uma distorção relevante: a categoria Furniture possui alta participação na receita, mas baixa contribuição no lucro.
 
-- A categoria **Technology** apresenta alta eficiência, concentrando **36% da receita e 51% do lucro**, sendo a principal responsável pelo resultado financeiro.
-
-- A categoria **Office Supplies** apresenta desempenho consistente, com equilíbrio entre receita e lucratividade.
-
-- A categoria **Furniture**, apesar de representar cerca de **32% da receita**, contribui com apenas **6% do lucro**, indicando **baixa eficiência econômica**.
-
-- Existe um **desbalanceamento entre volume e rentabilidade**, onde parte relevante do faturamento não se converte em lucro.
-
-- A análise de Pareto mostrou que aproximadamente **50% das subcategorias geram mais de 80% da receita**, indicando uma concentração moderada.
+Isso indica que aumentar vendas nessa categoria não necessariamente melhora o resultado do negócio, evidenciando um problema de margem.
 
 ---
 
@@ -198,11 +190,9 @@ Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
 
 ---
 
-# 📌 Conclusão
+## 📌 Conclusão
 
-Este projeto permitiu evoluir de uma análise descritiva para uma análise mais diagnóstica.
-
-Os resultados mostram que **nem toda receita gera valor**, e que entender a relação entre volume e rentabilidade é essencial para decisões mais estratégicas.
+Este projeto demonstra como dados podem ser utilizados não apenas para visualizar resultados, mas para orientar decisões estratégicas de negócio, identificando onde o crescimento realmente gera valor.
 
 ---
 
