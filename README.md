@@ -80,7 +80,7 @@ O projeto foi estruturado em etapas:
 
 # 📈 KPIs Monitorados
 
-| KPI                  | Descrição                         |
+| KPI                  | Descrição                        |
 |----------------------|----------------------------------|
 | Receita Total        | Soma total das vendas            |
 | Lucro Total          | Soma total do lucro              |
