@@ -1,84 +1,107 @@
 # 📊 Sales Performance Dashboard — Excel
 
-Este é meu primeiro projeto de portfólio em análise de dados.
-
-O objetivo foi transformar dados brutos de vendas em um dashboard executivo e, a partir dele, gerar análises que apoiem a tomada de decisão.
+Projeto de análise de dados desenvolvido em Excel para avaliar desempenho de vendas, lucratividade e eficiência por categoria, com foco em transformar dados brutos em indicadores, insights e recomendações práticas de negócio.
 
 ---
 
-# 📌 Contexto de Negócio
+## 📌 Resumo executivo
 
-Empresas que operam com grande volume de vendas precisam acompanhar constantemente seus indicadores para entender:
+Este projeto analisa dados de vendas para entender a relação entre **receita, lucro, margem e desempenho por categoria**.
 
-- como está o desempenho geral
-- quais categorias geram mais valor
-- onde existem distorções entre faturamento e lucro
+O principal insight identificado foi que a categoria **Furniture** representa uma parcela relevante da receita, mas contribui proporcionalmente pouco para o lucro, indicando possível problema de margem, descontos, custos ou mix de produtos.
 
-Sem essa visibilidade, a tomada de decisão tende a ser reativa e pouco eficiente.
+A análise resultou em um dashboard executivo com KPIs de vendas, comparação entre receita e lucro, análise por categoria/região/produto e recomendações práticas para apoiar decisões comerciais.
 
 ---
 
-## 🎯 Problema de Negócio
+## 🧭 Como visualizar o projeto
 
-Empresas que utilizam dados de vendas no Excel frequentemente possuem visibilidade sobre volume de vendas, mas não sobre a real lucratividade do negócio.
-
-Isso dificulta identificar quais categorias e produtos realmente geram resultado financeiro positivo, podendo levar a decisões baseadas apenas em receita e não em eficiência.
-
-Este projeto foi desenvolvido para resolver essa lacuna, analisando a relação entre receita e lucro para identificar distorções de rentabilidade.
-
----
-
-# 🎯 Pergunta de Análise
-
-Como está a performance de vendas da empresa e quais fatores realmente influenciam o resultado financeiro?
+* O arquivo principal do dashboard está na pasta `/excel`.
+* A base de dados utilizada está na pasta `/data`.
+* As imagens do dashboard estão na pasta `/images`.
+* O resumo visual do projeto está disponível na seção **Dashboard** deste README.
 
 ---
 
-## 🧪 Hipóteses de Análise
+## 📌 Contexto de negócio
 
-Antes da análise, foram consideradas as seguintes hipóteses com base no problema de negócio:
+Empresas que operam com volume relevante de vendas precisam acompanhar indicadores para entender:
 
-- Algumas categorias apresentam alto volume de vendas, mas baixa eficiência financeira.  
-- A lucratividade do negócio não está distribuída proporcionalmente à receita.  
-- Existem categorias com maior capacidade de geração de lucro que podem ser priorizadas.  
+* como está o desempenho geral do negócio;
+* quais categorias geram mais receita;
+* quais categorias realmente contribuem para o lucro;
+* onde existem distorções entre faturamento e rentabilidade.
 
-Essas hipóteses orientaram a análise e ajudaram a direcionar a investigação dos dados para identificar distorções entre receita e lucratividade.
-
----
-
-# 🗂️ Dataset Utilizado
-
-Fonte: Kaggle  
-Arquivo: Sample - Superstore.csv
-
-Principais campos:
-
-- Order Date
-- Region
-- Category
-- Sub-Category
-- Product Name
-- Sales (receita)
-- Profit (lucro)
-- Quantity
-- Discount
+Sem essa visibilidade, a tomada de decisão tende a ser baseada apenas em volume de vendas, o que pode ocultar problemas importantes de margem e eficiência financeira.
 
 ---
 
-# ⚙️ Metodologia
+## 🎯 Problema de negócio
 
-O projeto foi estruturado em etapas:
+Empresas que utilizam dados de vendas no Excel frequentemente possuem visibilidade sobre o faturamento, mas nem sempre conseguem identificar com clareza a real lucratividade por categoria, produto ou região.
 
-1. Importação e organização dos dados  
-2. Limpeza e padronização da base  
-3. Criação de métricas (KPIs)  
-4. Construção de tabelas dinâmicas  
-5. Desenvolvimento do dashboard  
-6. Análise exploratória e diagnóstica  
+Essa limitação pode levar a decisões comerciais baseadas apenas em receita, sem considerar quais áreas realmente geram resultado financeiro positivo.
+
+Este projeto foi desenvolvido para investigar essa lacuna, analisando a relação entre **receita, lucro e margem** para identificar distorções de rentabilidade.
 
 ---
 
-# 📈 KPIs Monitorados
+## ❓ Pergunta de análise
+
+**Como está a performance de vendas da empresa e quais fatores realmente influenciam o resultado financeiro?**
+
+---
+
+## 🧪 Hipóteses de análise
+
+Antes da análise, foram consideradas as seguintes hipóteses:
+
+* Algumas categorias podem apresentar alto volume de vendas, mas baixa eficiência financeira.
+* A lucratividade pode não estar distribuída proporcionalmente à receita.
+* Existem categorias com maior capacidade de geração de lucro que podem ser priorizadas.
+* Parte do faturamento pode estar concentrada em produtos ou subcategorias com menor contribuição para o resultado.
+
+Essas hipóteses orientaram a investigação dos dados e ajudaram a direcionar a análise para a relação entre crescimento de vendas e geração real de valor.
+
+---
+
+## 🗂️ Dataset utilizado
+
+* **Fonte:** Kaggle
+* **Arquivo:** `Sample - Superstore.csv`
+* **Finalidade:** dataset público utilizado para fins educacionais e composição de portfólio.
+
+Principais campos utilizados na análise:
+
+* `Order Date`
+* `Region`
+* `Category`
+* `Sub-Category`
+* `Product Name`
+* `Sales`
+* `Profit`
+* `Quantity`
+* `Discount`
+
+> Observação: por se tratar de um dataset público de estudo, os resultados devem ser interpretados como exercício analítico de portfólio, não como diagnóstico de uma empresa real específica.
+
+---
+
+## ⚙️ Metodologia
+
+O projeto foi estruturado nas seguintes etapas:
+
+1. Importação e organização dos dados.
+2. Limpeza e padronização da base.
+3. Criação de métricas e indicadores.
+4. Construção de tabelas dinâmicas.
+5. Desenvolvimento do dashboard em Excel.
+6. Análise exploratória e diagnóstica.
+7. Identificação de insights e recomendações de negócio.
+
+---
+
+## 📈 KPIs monitorados
 
 | KPI                  | Descrição                        |
 |----------------------|----------------------------------|
@@ -96,150 +119,155 @@ O projeto foi estruturado em etapas:
 ## Visão Geral
 ![Dashboard](images/dashboard_overview.png)
 
-## KPIs
+### KPIs
+
 ![KPIs](images/kpis.png)
 
-## Vendas ao longo do tempo
+### Vendas ao longo do tempo
+
 ![Vendas ao longo do tempo](images/sales_trend.png)
 
-## Vendas por região
+### Vendas por região
+
 ![Vendas por região](images/sales_region.png)
 
-## Vendas por categoria
+### Vendas por categoria
+
 ![Vendas por categoria](images/sales_category.png)
 
-## Top produtos
+### Top produtos
+
 ![Top produtos](images/top_products.png)
 
 ---
 
-# 🔍 Análises Realizadas
+## 🔍 Análises realizadas
 
-Além da construção do dashboard, foram realizadas análises adicionais para entender melhor o desempenho do negócio:
+Além da construção do dashboard, foram realizadas análises para entender melhor o desempenho do negócio:
 
-- Análise de margem por categoria (eficiência)
-- Comparação entre receita e lucro
-- Participação percentual por categoria
-- Análise de concentração (Pareto) por subcategoria
+* análise de receita, lucro e margem;
+* comparação entre receita e lucro por categoria;
+* participação percentual das categorias no faturamento e no lucro;
+* análise de desempenho por região;
+* identificação dos produtos com maior volume de vendas;
+* análise de concentração por subcategoria.
 
 ---
 
-# 🔍 Principais Insights
+## 💡 Principais insights
 
 A análise revelou padrões relevantes para o negócio:
 
-- A categoria **Technology** apresenta alta eficiência, concentrando **36% da receita e 51% do lucro**, sendo a principal responsável pelo resultado financeiro.
+* A categoria **Technology** apresenta alta eficiência, concentrando aproximadamente **36% da receita** e **51% do lucro**, sendo a principal responsável pelo resultado financeiro.
 
-- A categoria **Office Supplies** apresenta desempenho consistente, com equilíbrio entre receita e lucratividade.
+* A categoria **Office Supplies** apresenta desempenho mais equilibrado entre participação na receita e contribuição para o lucro.
 
-- A categoria **Furniture**, apesar de representar cerca de **32% da receita**, contribui com apenas **6% do lucro**, indicando **baixa eficiência econômica**.
+* A categoria **Furniture**, apesar de representar cerca de **32% da receita**, contribui com apenas **6% do lucro**, indicando baixa eficiência econômica.
 
-- Existe um **desbalanceamento entre volume e rentabilidade**, onde parte relevante do faturamento não se converte em lucro.
+* Existe um desbalanceamento entre volume de vendas e rentabilidade: parte relevante do faturamento não se converte proporcionalmente em lucro.
 
-- A análise de Pareto mostrou que aproximadamente **50% das subcategorias geram mais de 80% da receita**, indicando uma concentração moderada.
- 
-## 💡 Insight-chave de Negócio
-
-Apesar da categoria Furniture representar uma parcela relevante da receita, sua contribuição para o lucro é significativamente baixa.
-
-Isso indica que o crescimento dessa categoria não necessariamente gera valor para o negócio, evidenciando um problema de margem que pode impactar diretamente a rentabilidade geral.
+* A análise de concentração mostrou que aproximadamente **50% das subcategorias geram mais de 80% da receita**, indicando concentração moderada do faturamento.
 
 ---
 
-## 📌 Recomendações de Negócio
+## 📌 Insight-chave de negócio
 
-### 1. Revisar estratégia da categoria Furniture
+A categoria **Furniture** gera uma parcela relevante da receita, mas sua contribuição para o lucro é significativamente baixa.
 
-A categoria Furniture apresenta alta participação na receita, mas baixa contribuição no lucro. Isso indica que vender mais nessa categoria não necessariamente melhora o resultado do negócio.
+Isso indica que o crescimento dessa categoria não necessariamente gera valor proporcional para o negócio. O problema não está apenas em vender mais, mas em vender com margem adequada.
 
-**Ação recomendada:** reavaliar preços, descontos e estratégia comercial da categoria.  
-**Justificativa baseada nos dados:** alta receita com baixa lucratividade.  
-**Impacto esperado no negócio:** aumento da margem geral sem depender de aumento no volume de vendas.
+Esse achado sugere a necessidade de revisar preços, descontos, custos e mix de produtos para entender por que a categoria apresenta baixa conversão de receita em lucro.
 
 ---
 
-### 2. Priorizar expansão da categoria Technology
+## 📌 Recomendações de negócio
+
+### 1. Revisar a estratégia da categoria Furniture
+
+A categoria Furniture apresenta alta participação na receita, mas baixa contribuição para o lucro. Isso indica que vender mais nessa categoria não necessariamente melhora o resultado financeiro do negócio.
+
+* **Ação recomendada:** reavaliar preços, descontos, custos e estratégia comercial da categoria.
+* **Justificativa baseada nos dados:** alta receita com baixa lucratividade proporcional.
+* **Impacto esperado:** aumento da margem geral sem depender apenas do crescimento do volume de vendas.
+
+### 2. Priorizar categorias com maior eficiência financeira
 
 A categoria Technology se destacou tanto em receita quanto em lucro, demonstrando maior eficiência financeira em comparação com as demais.
 
-**Ação recomendada:** priorizar ações comerciais e estratégicas voltadas para essa categoria.  
-**Justificativa baseada nos dados:** alta participação em receita e forte contribuição para o lucro.  
-**Impacto esperado no negócio:** crescimento mais sustentável, com melhor retorno financeiro.
-
----
+* **Ação recomendada:** priorizar ações comerciais voltadas para categorias e produtos com maior contribuição para o lucro.
+* **Justificativa baseada nos dados:** alta participação em receita e forte contribuição para o resultado financeiro.
+* **Impacto esperado:** crescimento mais sustentável, com melhor retorno sobre as vendas.
 
 ### 3. Reavaliar o mix de produtos dentro de Furniture
 
-O baixo retorno da categoria sugere que parte dos produtos pode estar comprometendo a rentabilidade.
+O baixo retorno da categoria Furniture sugere que parte dos produtos ou subcategorias pode estar comprometendo a rentabilidade.
 
-**Ação recomendada:** revisar o mix de produtos e identificar itens com baixa eficiência financeira.  
-**Justificativa baseada nos dados:** a categoria gera receita, mas não converte isso em lucro na mesma proporção.  
-**Impacto esperado no negócio:** melhoria da eficiência da categoria e redução de distorções de rentabilidade.
-
----
-
-# 💡 Possíveis Ações de Negócio
-
-Com base nos insights obtidos, algumas ações estratégicas poderiam ser consideradas:
-
-- Revisar a estratégia da categoria **Furniture**, avaliando preços, descontos e custos.
-
-- Priorizar investimentos em categorias mais eficientes, como **Technology**.
-
-- Monitorar subcategorias com alto volume de vendas, mas baixa contribuição para o lucro.
-
-- Buscar equilíbrio entre crescimento de receita e geração de valor.
+* **Ação recomendada:** identificar produtos com baixa margem, alto desconto ou baixa contribuição para o lucro.
+* **Justificativa baseada nos dados:** a categoria gera receita, mas não converte esse volume em lucro na mesma proporção.
+* **Impacto esperado:** melhoria da eficiência da categoria e redução de distorções de rentabilidade.
 
 ---
 
-# 🧠 Aprendizados
+## 🧠 Aprendizados do projeto
 
-Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
+Durante o desenvolvimento deste projeto, foram trabalhados conceitos importantes de análise de dados aplicada a negócios:
 
-- estruturação de problemas de negócio  
-- análise de eficiência (margem)  
-- comparação entre métricas  
-- análise de concentração (Pareto)  
-- uso de Excel para análise de dados  
+* estruturação de problema de negócio;
+* análise de desempenho comercial;
+* criação e interpretação de KPIs;
+* análise de margem e eficiência financeira;
+* comparação entre métricas de receita e lucro;
+* construção de dashboard em Excel;
+* transformação de dados em recomendações práticas.
+
+---
+
+## 💼 Aplicação como serviço
+
+Este projeto representa um tipo de análise que pode ser aplicado em empresas que utilizam Excel no dia a dia para acompanhar vendas, produtos e resultados financeiros.
+
+### Para quem é
+
+* Pequenas e médias empresas.
+* E-commerces.
+* Negócios que utilizam planilhas para controle de vendas.
+* Empresas que precisam entender melhor a relação entre faturamento e lucratividade.
+
+### Problemas que resolve
+
+* Falta de clareza sobre quais produtos ou categorias realmente geram lucro.
+* Decisões baseadas apenas em volume de vendas.
+* Dificuldade em identificar distorções de rentabilidade.
+* Ausência de indicadores consolidados para acompanhamento comercial.
+
+### Tipo de entrega
+
+* Dashboard de vendas em Excel.
+* Análise de lucratividade por categoria e produto.
+* Identificação de oportunidades de melhoria.
+* Recomendações práticas para tomada de decisão.
 
 ---
 
 ## 📌 Conclusão
 
-Este projeto demonstra como dados podem ser utilizados não apenas para visualizar resultados, mas para orientar decisões estratégicas de negócio, identificando onde o crescimento realmente gera valor.
+Este projeto demonstra como dados de vendas podem ser utilizados não apenas para visualizar resultados, mas para orientar decisões de negócio.
 
-A análise evidenciou que categorias com alto volume de vendas nem sempre contribuem proporcionalmente para o lucro, reforçando a importância de avaliar eficiência e não apenas faturamento.
+A análise evidenciou que categorias com alto volume de receita nem sempre contribuem proporcionalmente para o lucro, reforçando a importância de avaliar eficiência financeira e não apenas faturamento.
 
----
-
-## 💼 Aplicação como Serviço
-
-Este projeto pode ser aplicado como um serviço de análise de vendas e lucratividade para empresas que utilizam Excel no dia a dia.
-
-### Para quem é
-- Pequenas e médias empresas  
-- E-commerces  
-- Negócios que utilizam planilhas para controle de vendas  
-
-### Problema que resolve
-- Falta de clareza sobre quais produtos ou categorias realmente geram lucro  
-- Decisões baseadas apenas em volume de vendas  
-- Dificuldade em identificar distorções de rentabilidade  
-
-### Tipo de entrega
-- Dashboard de vendas em Excel  
-- Análise de lucratividade por categoria e produto  
-- Identificação de oportunidades de melhoria  
-- Recomendações práticas para tomada de decisão  
+O principal aprendizado foi que um dashboard se torna mais útil quando conecta indicadores, contexto de negócio e recomendações práticas.
 
 ---
 
-# 📎 Sobre o Projeto
+## 📎 Sobre o projeto
 
-Este projeto faz parte da minha transição de carreira para a área de análise de dados.
+Este projeto faz parte da minha transição de carreira para a área de Análise de Dados.
 
 Estou desenvolvendo projetos práticos com foco em:
 
-- análise de dados  
-- construção de dashboards  
-- geração de insights de negócio  
+* análise de dados aplicada a negócios;
+* construção de dashboards;
+* criação e acompanhamento de KPIs;
+* diagnóstico de desempenho;
+* automação de relatórios;
+* geração de insights e recomendações práticas.
